@@ -28,7 +28,7 @@ sap.ui.jsview("zpm_launchpad.LaunchPad", {
 						icon : 'sap-icon://complete', 
 						number : 17, 
 						press: function(){					
-							window.open('http://localhost:64331/ZPM_WORK_ORDER/index.html', '_parent');
+							window.open('http://localhost:8080/ZPM_WORK_ORDERS/index.html', '_parent');
 					},
 						
 					}),
@@ -37,7 +37,7 @@ sap.ui.jsview("zpm_launchpad.LaunchPad", {
 						icon : 'sap-icon://duplicate', 
 						number : 200, 
 						press: function(){					
-							window.open('http://localhost:64331/ZPM_WORK_ORDER/index.html', '_parent');
+							window.open('http://localhost:8080/ZPM_ASSIGN_WORK/index.html', '_parent');
 					},
 					}),
 			        new sap.m.StandardTile({
@@ -45,14 +45,14 @@ sap.ui.jsview("zpm_launchpad.LaunchPad", {
 						icon : 'sap-icon://activity-individual', 
 						number : 18, 
 						press: function(){					
-							window.open('http://localhost:57959/ZPM_WORK_REQUESTS/index.html', '_parent');
+							window.open('http://localhost:8080/ZPM_WORK_REQUESTS/index.html', '_parent');
 					},	
 					}),
 			        new sap.m.StandardTile({
 						title : 'Report Problem',
 						icon : 'sap-icon://create', 
 						press: function(){					
-							window.open('http://localhost:57884/ZPM_CREATE_WR/index.html', '_parent');
+							window.open('http://localhost:8080/ZPM_CREATE_WR/index.html', '_parent');
 					},	
 					}),					
 			], // sap.ui.core.Control
